@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Averta';
+    src: url('assets/AvertaDemo/Averta-Regular.otf');
+    src: local('Averta'), local('Averta-Regular'), url('assets/AvertaDemo/Averta-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Averta ';
+    src: url('aassets/AvertaDemo/Averta-ExtraBoldItalic.otf');
+    src: local('Averta ExtraBoldItalic'), local('Averta-ExtraBoldItalic'), url('assets/AvertaDemo/Averta-ExtraBoldItalic.otf') format('opentype');
+    font-weight: bold;
+}
+
+body {
+    font-family: Passenger Display, serif;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+p {
+    font-family: 'Averta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #8D8D8D;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #353535;
+}
+
+h6 {
+    font-family: 'Averta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #1A695E;
+}
+
+.bg-image {
+    background-image: linear-gradient(180deg, #05231E -14.59%, rgba(255, 255, 255, 0) 60%), url("assets/image1.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    mix-blend-mode: multiply;
+}
+
+.container {
+    max-width: 60%;
+}
+
+.circle {
+    position: absolute;
+    right: 0;
+    width: 50%;
+}
+
+.my-6 {
+    margin-top: 10.4rem;
+    margin-bottom: 10.4rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .my-6 {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+}
+
+.btn-primary {
+    background: #1A695E;
+    border-radius: 3px;
+    font-size: 10px;
+}
+
+.btn-primary:hover {
+    background: #103e38;
+    border-radius: 5px;
+}
+
+.float-left {
+    position: absolute;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    color: #ffffff;
+    transition: 1s;
+}
+
+.nav-link:hover {
+    color: #3acd75;
+    transform: translate(0px, -10px);
+}
+
+.img-r {
+    margin-left: -80%;
+}
+
+.img-l {
+    margin-left: 73%;
+    width: 100%;
+}
