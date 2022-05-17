@@ -14,11 +14,13 @@
 body {
     font-family: Passenger Display, serif;
     height: 100%;
+    
 }
 
 html {
     height: 100%;
     margin: 0;
+    overflow-x: hidden;
 }
 
 p {
@@ -58,6 +60,7 @@ h6 {
 
 .container {
     max-width: 60%;
+    overflow-x: visible;
 }
 
 .circle {
@@ -67,8 +70,8 @@ h6 {
 }
 
 .my-6 {
-    margin-top: 10.4rem;
-    margin-bottom: 10.4rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -113,4 +116,68 @@ h6 {
 .img-l {
     margin-left: 73%;
     width: 100%;
+}
+.mission
+{
+    background-image: linear-gradient(270deg, #222626 9.09%, rgba(26, 105, 94, 0) 100.45%),url("assets/Rectangle\ 76.png");
+    height: 250px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary-color{
+    color: #1A695E;
+}
+.background{
+width: 100%;
+height: auto;
+background: #1C1C1C;
+
+}
+h3{
+    font-family: 'Passenger Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 17px;
+/* identical to box height */
+color: #1A695E;
+}
+.nav-bar{
+width: 100%;
+height:max-content;
+background: #1A695E;
+}
+.bg-fade{
+    background: #1a695f2a;
+    width: 100%;
+    height:max-content;
+}
+.bg-circle{
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    
+    } 
+.bg-circle img{
+    width: auto; 
+    height: 100%;
+    border-radius: 50%;
+    border: 8px solid rgba(26, 105, 94, 0.98);
+}
+h5 ~ p{
+    color: #1A695E;
+}
+.contact  p{
+    color: #1A695E;
+}
+.contact{
+    position: relative;
+    height: 430px;
+}
+.contact > p:last-of-type{
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
