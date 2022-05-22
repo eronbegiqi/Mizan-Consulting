@@ -381,3 +381,7 @@ footer>p {
 a{
     text-decoration: none;
 }
+.partners > img{
+    width: 150px;
+    height: 150px;
+}
