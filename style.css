@@ -378,3 +378,6 @@ footer>p {
 ::-webkit-scrollbar-thumb{
     background: #1A695E;
 }
+a{
+    text-decoration: none;
+}
