@@ -358,3 +358,23 @@ footer>p {
     margin-top: 2rem;
     margin-right: 5rem;
 }
+::-moz-selection { /* Code for Firefox */
+    color: #ffffff;
+    background: #1A695E;
+  }
+  
+  ::selection {
+    color: #FFF;
+    background: #1A695E;
+  } 
+
+::-webkit-scrollbar{
+    width: 15px;
+
+}
+::-webkit-scrollbar-track{
+    background: #0b3022;
+}
+::-webkit-scrollbar-thumb{
+    background: #1A695E;
+}
